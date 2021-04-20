@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: none;
+  font-family: monospace;
 }
 
 .App-logo {
@@ -26,6 +27,32 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.navbar {
+  justify-content: normal;
+}
+
+.navbar-expand {
+  justify-content: normal;
+}
+
+.bg-dark {
+  background-color: #1E1014 !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:visited {
+  background-color: #B4A0E5 !important;
+  border-color: #B4A0E5 !important;
+}
+
+.alert-success {
+  background-color: #CAFFD0;
+  border: #CAFFD0;
+}
+
+.note-body {
+  white-space: pre-wrap;
 }
 
 @keyframes App-logo-spin {
